@@ -18,7 +18,7 @@
             ListBox1.Items.Add(strNamaHari(X))
         Next
 
-        ' saja test 7
+        ' saja test 8
         Label1.Text = "SIAP"
     End Sub
 End Class
