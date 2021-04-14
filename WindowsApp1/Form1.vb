@@ -12,9 +12,12 @@
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         Dim strNamaHari() As String = {"Ahad", "Isnin", "Selasa", "Rabu", "Khamis", "Jumaat", "Sabtu"}
 
-        Array.Reverse(strNamaHari)
+        ' terbalikkan
+        Array.Sort(strNamaHari)
         For X As Integer = 0 To 6
             ListBox1.Items.Add(strNamaHari(X))
         Next
+
+        Label1.Text = "SIAP"
     End Sub
 End Class
